@@ -107,3 +107,91 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
+// Stack 层叠布局
+// import 'package:flutter/material.dart';
+
+// void main() => runApp(MyApp());
+
+// class MyApp extends StatelessWidget{
+//   @override
+//   Widget build(BuildContext context) {
+//     var stack = new Stack(
+//       alignment: const FractionalOffset(0.5, 0.8),
+//       children: <Widget>[
+//         new CircleAvatar(
+//           backgroundImage: new NetworkImage('https://profile.csdnimg.cn/1/0/A/3_weixin_43996061'),
+//           radius: 50.0,
+//         ),
+//         new Container(
+//           decoration: new BoxDecoration(
+//             color: Colors.pink[100]
+//           ),
+//           padding: EdgeInsets.all(5.0),
+//           child: new Text('ddduang'),
+//         ),
+//         new Positioned(
+//           top: 0.0,
+//           left: 0.0,
+//           child: new Text('最美'),
+//         )
+//       ],
+//     );
+
+//     return MaterialApp(
+//       title: 'ListView widget',
+//       home: Scaffold(
+//         appBar: new AppBar(
+//           title: new Text('垂直方向布局'),
+//         ),
+//         body: Center(child: stack),
+//       ),
+//     );
+//   }
+// }
+
+// // 卡片布局列表
+// import 'package:flutter/material.dart';
+
+// void main() => runApp(MyApp());
+
+// class MyApp extends StatelessWidget{
+//   @override
+//   Widget build(BuildContext context) {
+//     var card = new Card(
+//       child: Column(
+//         children: <Widget>[
+//           ListTile(
+//             title: new Text('湖南师范大学', style: TextStyle(fontWeight: FontWeight.w500)),
+//             subtitle: new Text('校长: 12580'),
+//             leading: new Icon(Icons.account_box, color: Colors.lightBlue),
+//           ),
+//           new Divider(),
+//           ListTile(
+//             title: new Text('湖南师范大学', style: TextStyle(fontWeight: FontWeight.w500)),
+//             subtitle: new Text('校长: 12580'),
+//             leading: new Icon(Icons.account_box, color: Colors.lightBlue),
+//           ),
+//           new Divider(),
+//           ListTile(
+//             title: new Text('湖南师范大学', style: TextStyle(fontWeight: FontWeight.w500)),
+//             subtitle: new Text('校长: 12580'),
+//             leading: new Icon(Icons.account_box, color: Colors.lightBlue),
+//           ),
+//           new Divider(),
+//         ],
+//       ),
+//     );
+
+//     return MaterialApp(
+//       title: 'ListView widget',
+//       home: Scaffold(
+//         appBar: new AppBar(
+//           title: new Text('卡片布局'),
+//         ),
+//         body: Center(child: card),
+//       ),
+//     );
+//   }
+// }
