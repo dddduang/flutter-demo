@@ -18,3 +18,5 @@ flutter:
   module:
     androidPackage: com.example.fluttermodule
     iosBundleIdentifier: com.example.flutterModule
+  assets:
+    - static/timg.jpg # 引入本地资源图片, 使用的时候直接将此图片路径放入
