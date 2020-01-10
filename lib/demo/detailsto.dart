@@ -30,7 +30,7 @@ class SecondScreen extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-        ),
+        ), onPressed: () {},
       )),
     );
   }
