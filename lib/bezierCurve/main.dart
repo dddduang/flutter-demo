@@ -1,6 +1,6 @@
 // 贝塞尔曲线切割
 import 'package:flutter/material.dart';
-import './bezierCurve/customClipper.dart';
+import 'customClipper.dart';
 
 void main() => runApp(MyApp());
 

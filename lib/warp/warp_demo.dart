@@ -76,7 +76,7 @@ class _WarpDemoState extends State<WarpDemo> {
         if (list.length > 2) {
           setState(() {
             setState(() {
-              print(list.length);
+              // print(list.length);
               list.removeAt(0);
             });
           });

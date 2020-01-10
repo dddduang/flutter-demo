@@ -22,7 +22,7 @@ class _BottomAppBarDemoState extends State<BottomAppBarDemo> {
       // body: _eachView[_index],
       floatingActionButton: FloatingActionButton( // floatingActionButton “FAB”，“可交互的浮动按钮”
         onPressed: (){ // 点击相应事件
-          print(_eachView);
+          // print(_eachView);
           Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) {
             return EachView('New Page');
           }));
@@ -42,7 +42,7 @@ class _BottomAppBarDemoState extends State<BottomAppBarDemo> {
               icon: Icon(Icons.home),
               color: Colors.white,
               onPressed: (){
-                print('🏠');
+                // print('🏠');
                 // setState(() {
                 //   _index = 0;
                 // });
@@ -52,7 +52,7 @@ class _BottomAppBarDemoState extends State<BottomAppBarDemo> {
               icon: Icon(Icons.airport_shuttle),
               color: Colors.white,
               onPressed: (){
-                print('🚗');
+                // print('🚗');
                 // setState(() {
                 //   _index = 1;
                 // });

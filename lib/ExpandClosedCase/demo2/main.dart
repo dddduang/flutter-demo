@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ExpandClosedCase/demo2/ExpansionPanelListDemo.dart';
+import 'ExpansionPanelListDemo.dart';
 
 void main() => runApp(MyApp());
 

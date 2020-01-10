@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> with AutomaticKeepAliveClientMi
                   if (_counter > 0) {
                     _counter--;
                   } else {
-                    print('不能再减少了哦');
+                    // print('不能再减少了哦');
                   }
                 });
               },

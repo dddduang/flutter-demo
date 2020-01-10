@@ -1,6 +1,6 @@
 // 毛玻璃效果制作
 import 'package:flutter/material.dart';
-import './frostedGlass/FrostedGlassDemo.dart';
+import 'FrostedGlassDemo.dart';
 
 void main() => runApp(MyApp());
 

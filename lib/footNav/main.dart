@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'; // 是Flutter实现Material Design设计风格的基础包,，里面有文本输入框(Text)、图标(Icon)、图片(Image)、行排列布局(Align)、列排列布局(Column)、Decoration、异步、动画等等控件，大家可以理解为网页中的按钮、标题、选项框呀等等控件库吧。
-import 'package:flutter_module/BottomNavigationWidget.dart';
+import 'BottomNavigationWidget.dart';
 
 void main()=> runApp(new MyApp()); // main()函数是Dart程序的入口
 // 继承（关键字 extends）
